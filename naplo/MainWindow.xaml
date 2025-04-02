@@ -1,0 +1,16 @@
+﻿<Window x:Class="naplo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:naplo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Image x:Name="image" HorizontalAlignment="Left"  Margin="75,75,0,75" VerticalAlignment="Top" Height="300"  Width="300" Source="/MS-8750.jpg" Stretch="None"/>
+        <Button x:Name="Belepes" Content="Belépés" HorizontalAlignment="Left" Height="60" Margin="497,65,0,0" VerticalAlignment="Top" Width="150" Click="Belepes_Click"/>
+        <Button x:Name="Lekerdezesek" Content="Lekérdezés" HorizontalAlignment="Left" Height="60" Margin="497,163,0,0" VerticalAlignment="Top" Width="150"/>
+        <Button x:Name="Kilepes" Content="Kilépés" HorizontalAlignment="Left" Height="60" Margin="497,275,0,0" VerticalAlignment="Top" Width="150"/>
+
+    </Grid>
+</Window>
