@@ -12,7 +12,8 @@
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition />
+            <RowDefinition/>
+            <RowDefinition/>
             <RowDefinition/>
             <RowDefinition/>
             <RowDefinition/>
@@ -20,6 +21,11 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <Label Grid.Column="0" Grid.Row="0" Content="Felhalsználói belépés" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.ColumnSpan="2"/>
-
+        <Label Grid.Column="0" Grid.Row="1" Content="Felhasználónév" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="username" Grid.Column="0" Grid.Row="2" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.ColumnSpan="2" Width="200"/>
+        <Label Grid.Column="0" Grid.Row="3" Content="Jelszó" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.ColumnSpan="2"/>
+        <PasswordBox x:Name="password" Grid.Column="0" Grid.Row="4" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.ColumnSpan="2" Width="200"/>
+        <Button Grid.Column="0" Grid.Row="5" Content="Belépés" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.ColumnSpan="2" Width="150" Height="40" Click="Button_Click"/>
+        <Button Grid.Column="0" Grid.Row="6" Content="Elfelejtett jelszó" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.ColumnSpan="2" Width="150" Height="40" Click="Button_Click_1"/>
     </Grid>
 </Window>

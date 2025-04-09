@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -22,6 +23,18 @@ namespace naplo
         public Belepes()
         {
             InitializeComponent();
+        }
+        public string username10 = "info";
+        public string password10 = "Premo900";
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

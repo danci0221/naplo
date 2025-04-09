@@ -10,30 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace naplo
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for jelszo.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class jelszo : Window
     {
-        public MainWindow()
+        public jelszo()
         {
             InitializeComponent();
-        }
-
-        private void Belepes_Click(object sender, RoutedEventArgs e)
-        {
-            Belepes belepes = new Belepes();
-            belepes.Show();
-        }
-
-        private void Kilepes_Click(object sender, RoutedEventArgs e)
-        {
-            Close();
         }
     }
 }

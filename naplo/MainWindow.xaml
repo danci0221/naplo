@@ -9,8 +9,7 @@
     <Grid>
         <Image x:Name="image" HorizontalAlignment="Left"  Margin="75,75,0,75" VerticalAlignment="Top" Height="300"  Width="300" Source="/MS-8750.jpg" Stretch="None"/>
         <Button x:Name="Belepes" Content="Belépés" HorizontalAlignment="Left" Height="60" Margin="497,65,0,0" VerticalAlignment="Top" Width="150" Click="Belepes_Click"/>
-        <Button x:Name="Lekerdezesek" Content="Lekérdezés" HorizontalAlignment="Left" Height="60" Margin="497,163,0,0" VerticalAlignment="Top" Width="150"/>
-        <Button x:Name="Kilepes" Content="Kilépés" HorizontalAlignment="Left" Height="60" Margin="497,275,0,0" VerticalAlignment="Top" Width="150"/>
+        <Button x:Name="Kilepes" Content="Kilépés" HorizontalAlignment="Left" Height="60" Margin="497,275,0,0" VerticalAlignment="Top" Width="150" Click="Kilepes_Click"/>
 
     </Grid>
 </Window>
